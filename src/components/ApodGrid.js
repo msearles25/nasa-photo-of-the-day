@@ -6,7 +6,7 @@ function ApodGrid () {
     const [apod, setApod] = useState([]);
 
     useEffect(() => {
-        axios.get('https://api.na.gov/planetary/apod?api_key=DEMO_KEY')
+        axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
         .then(response => {
             setApod(response.data);
         })
