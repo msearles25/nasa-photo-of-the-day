@@ -1,8 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const HeadCustom = styled.h1`
+    font-size: 5.5rem;
+    margin: 20px 0;
+`;
 
 function Header() {
     return (
-        <h1>NASA Photo of the day!<span role='image' aria-label='rocket ship emoji'>🚀</span></h1>
+        <div>
+            <HeadCustom>NASA Photo of the day!</HeadCustom>
+        </div>
     )
 }
 
