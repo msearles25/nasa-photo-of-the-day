@@ -6,14 +6,14 @@ cursor: pointer;
 background: transparent;
 font-size: 16px;
 border-radius: 3px;
-color: slateblue;
-border: 2px solid slateblue;
+color: #5ea9c2;
+border: 2px solid #5ea9c2;
 margin: 20px 20px;
 padding: 0.25em 1em;
 transition: 0.5s all ease-out;
 width: 150px;
 &:hover {
-  background-color: slateblue;
+  background-color: #5ea9c2;
   color: white;
 `;
 

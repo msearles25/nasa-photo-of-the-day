@@ -17,6 +17,14 @@ const ImgCustom = styled.img`
     background: #add8e6;
 `;
 
+const CustomH2 = styled.h2`
+    margin: 0 0 20px 0;
+`;
+
+const CustomH3 = styled.h2`
+    margin: 0 0 20px 0;
+`;
+
 function ApodCard (props) {
 
 
@@ -24,8 +32,8 @@ function ApodCard (props) {
         <div>
             <ImgCustom src={props.imgUrl} alt='astronomy picture'/>
             <Button />
-            <h2>{props.title}</h2>
-            <h3>{props.date}</h3>
+            <CustomH2>{props.title}</CustomH2>
+            <CustomH3>{props.date}</CustomH3>
             <ParaCustom>{props.desc}</ParaCustom>
         </div>
     )
